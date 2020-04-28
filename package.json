@@ -1,0 +1,35 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "A Node.js and Express based RESTful API ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happyhardik/node-rest-api.git"
+  },
+  "author": "Hardik Thakker",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/happyhardik/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/happyhardik/node-rest-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
